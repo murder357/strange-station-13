@@ -109,15 +109,15 @@
 
 /datum/antagonist/ert/usa
 	name = "USA Agent"
-	show_in_antagpanel = TRUE
+	show_in_antagpanel = FALSE
 	outfit = /datum/outfit/centcom/ert/usa
 	role = "Agent"
 	rip_and_tear = TRUE
 
 /datum/antagonist/ert/usa/leader
-	name = "USA Specalist"
+	name = "USA Specialist"
 	outfit = /datum/outfit/centcom/ert/usa/leader
-	role = "Specalist"
+	role = "Specialist"
 
 /datum/antagonist/ert/deathsquad
 	name = "Deathsquad Trooper"
