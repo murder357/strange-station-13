@@ -104,6 +104,18 @@ SUBSYSTEM_DEF(events)
 	frequency_lower = initial(frequency_lower)
 	frequency_upper = initial(frequency_upper)
 
+//OLD WIP PROC, dont uncomment or i will skin you
+
+///datum/controller/subsystem/events/proc/CheckWarpCore()
+//	if(/obj/structure/warp_core)
+//		log_admin("CheckWarpCore proc called")
+//		var/obj/structure/warp_core/A
+//		log_admin("Printing active Var: [A]")
+//		if(A.active == TRUE)
+//			spawnEvent()
+//			log_admin("Warp Core proc Called, spawned event(?)")
+//			return TRUE
+
 /**
  * HOLIDAYS
  *
